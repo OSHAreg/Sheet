@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OSHA CHEAT SHEET</title>
+    <style>
+        body {
+            background-image: url('background4.jpg'); /* Path to your JPEG image */
+            background-size: small; /* Adjust the background size to cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent image repetition */
+			
+        }
+    </style>
+</head>
+
+<body>
+        
+    <h1>QUICK REFERENCE FOR COMMON REGULATIONS</h1>
+
+    <div id="buttonAndSentenceContainer">
+        <!-- Generate buttons and corresponding divs for sentences using a loop -->
+        <script>
+            for (var i = 1; i <= 29; i++) {
+                document.write('<div class="button-container">');
+                document.write('<button id="button' + i + '">Button ' + i + '</button>');
+                document.write('<div id="sentence' + i + '" class="sentence" style="display: none;"></div>');
+                document.write('</div>');
+            }
+        </script>
+    </div>
+
+    <style>
+	
+	    
+        }
+        /* Add CSS to style the button list and sentences */
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 24px;
+			margin-top: 24px;
+        }
+		
+        /* Change button color and font here */
+        button {
+            background-color: #00FFFF; /* Change to your desired color */
+            color: #000066; /* Change to your desired font color */
+            font-family: Garamond, serif; /* Change to your desired font family */
+            font-size: 24px; /* Change to your desired font size */
+            padding: 5px 10px;
+            border: double;
+            cursor: pointer;
+        }
+        .sentence {
+            margin-top: 12px;
+
+        }
+		.sentence {
+    background-color: rgba(0, 0, 0, 0.5); /* Opaque background color (adjust the alpha value as needed) */
+    border: 2px solid #333; /* Border with a solid color (#333) */
+    padding: 10px; /* Padding for spacing inside the sentence container */
+    color: #ffffff; /* Text color */
+}
+
+		
+		/* Add left padding for the first line of each sentence */
+        .sentence:first-line {
+            indent-left: 20px;
+		}
+		
+	</style>
+
+    <script>
+        // An array of sentences for each button
+        var sentences = [
+            ["<b>1926.25(a)</b>During the course of construction, alteration, or repairs, form and scrap lumber with protruding nails, and all other debris, shall be kept cleared from work areas, passageways, and stairs, in and around buildings or other structures.", "<b>1926.25(b)</b>Combustible scrap and debris shall be removed at regular intervals during the course of construction. Safe means shall be provided to facilitate such removal.", "<b>1926.25(c)</b>Containers shall be provided for the collection and separation of waste, trash, oily and used rags, and other refuse. Containers used for garbage and other oily, flammable, or hazardous wastes, such as caustics, acids, harmful dusts, etc. shall be equipped with covers. Garbage and other waste shall be disposed of at frequent and regular intervals."],
+            ["<b>1926.34(a)</b><b>General</b> In every building or structure exits shall be so arranged and maintained as to provide free and unobstructed egress from all parts of the building or structure at all times when it is occupied. No lock or fastening to prevent free escape from the inside of any building shall be installed except in mental, penal, or corrective institutions where supervisory personnel is continually on duty and effective provisions are made to remove occupants in case of fire or other emergency.", "<b>1926.34(b)</b><b>Exit marking.</b> Exits shall be marked by a readily visible sign. Access to exits shall be marked by readily visible signs in all cases where the exit or way to reach it is not immediately visible to the occupants.", "<b>1926.34(c) Maintenance & Workmanship</b>Means of egress shall be continually maintained free of all obstructions or impediments to full instant use in the case of fire or other emergency."],
+			["<b>1925.51(a)(1)</b>An adequate supply of potable water shall be provided in all places of employment.", "<b>1926.51(c)(1)</b>Toilets shall be provided for employees according to the following. 20 employees or less =1. 20 or more = 1 per 40 workers. 200 or more = 1 per 50 employees.", "<b>1926.51(f)(1)</b>The employer shall provide adequate washing facilities for employees engaged in the application of paints, coating, herbicides, or insecticides, or in other operations where contaminants may be harmful to the employees. Such facilities shall be in near proximity to the worksite and shall be so equipped as to enable employees to remove such substances."],
+			["<b>1926.56(a) General.</b> Construction areas, ramps, runways, corridors, offices, shops, and storage areas shall be lighted to not less than 5 foot candles for general construction areas & 30 foot candles for first aid stations."],
+			["<b>1926.100(b)(1) Head protection.</b>The employer must provide each employee with head protection that meets the specifications contained in any of the following consensus standards:", "<b>1926.100(b)(1)(i)</b>American National Standards Institute (ANSI) Z89.1-2009,American National Standard Industrial Head Protection, incorporated by reference in §1926.6;"],
+			["<b>1926.101(b)</b> Ear protective devices inserted in the ear shall be fitted or determined individually by competent persons.", "<b>1926.101(c)</b> Plain cotton is not an acceptable protective device."],
+			["<b>1926.102(a)(1)</b>The employer shall ensure that each affected employee uses appropriate eye or face protection when exposed to eye or face hazards from flying particles, molten metal, liquid chemicals, acids or caustic liquids, chemical gases or vapors, or potentially injurious light radiation.", "<b>1926.102(a)(2)</b>The employer shall ensure that each affected employee uses eye protection that provides side protection when there is a hazard from flying objects. Detachable side protectors (e.g. clip-on or slide-on side shields) meeting the pertinent requirements of this section are acceptable.", "<b>1926.102(a)(3)</b>The employer shall ensure that each affected employee who wears prescription lenses while engaged in operations that involve eye hazards wears eye protection that incorporates the prescription in its design, or wears eye protection that can be worn over the prescription lenses without disturbing the proper position of the prescription lenses or the protective lenses.", "<b>1926.102(a)(4)</b>Eye and face PPE shall be distinctly marked to facilitate identification of the manufacturer.", "<b>1926.102(a)(5)</b>Protectors shall meet the following minimum requirements:", "<b>1926.102(a)(5)(i)</b>They shall provide adequate protection against the particular hazards for which they are designed.", "<b>1926.102(a)(5)(ii)</b>They shall be reasonably comfortable when worn under the designated conditions.", "<b>1926.102(a)(5)(iii)</b>They shall fit snugly and shall not unduly interfere with the movements of the wearer.", "<b>1926.102(a)(5)(iv)</b>They shall be durable.", "<b>1926.102(a)(5)(v)</b>They shall be capable of being disinfected.", "<b>1926.102(a)(5)(vi)</b>They shall be easily cleanable.", "<b>1926.102(b)(1)</b>Protective eye and face protection devices must comply with any of the following consensus standards:", "<b>1926.102(b)(1)(i)</b>ANSI/ISEA Z87.1-2010, Occupational and Educational Personal Eye and Face Protection Devices, incorporated by reference in § 1926.6;"],
+			["<b>1926.150(a)(1)</b>The employer shall be responsible for the development of a fire protection program to be followed throughout all phases of the construction and demolition work, and he shall provide for the firefighting equipment as specified in this subpart. As fire hazards occur, there shall be no delay in providing the necessary equipment.", "<b>1926.150(a)(2)</b>Access to all available firefighting equipment shall be maintained at all times.", "<b>1926.150(a)(3)</b>All firefighting equipment, provided by the employer, shall be conspicuously located.", "<b>1926.150(a)(4)</b>All firefighting equipment shall be periodically inspected and maintained in operating condition. Defective equipment shall be immediately replaced."],
+			["<b>1926.152(c)(4)(i)</b>Portable tanks shall not be nearer than 20 feet from any building. Two or more portable tanks, grouped together, having a combined capacity in excess of 2,200 gallons, shall be separated by a 5-foot-clear area. Individual portable tanks exceeding 1,100 gallons shall be separated by a 5-foot-clear area.", "<b>1926.152(d)(2)</b>At least one portable fire extinguisher having a rating of not less than 20-B units shall be located not less than 25 feet, nor more than 75 feet, from any flammable liquid storage area located outside.", "<b>1926.152(e)(4)</b>The dispensing units shall be protected against collision damage."],
+			["<b>1926.200(b)(2)</b>Danger signs shall have red as the predominating color for the upper panel; black outline on the borders; and a white lower panel for additional sign wording."],
+			["<b>1926.251(a)(1)</b>Rigging equipment for material handling shall be inspected prior to use on each shift and as necessary during its use to ensure that it is safe. Defective rigging equipment shall be removed from service.", "<b>1926.251(a)(2)</b>Employers must ensure that rigging equipment:.", "<b>1926.251(a)(2)(i)</b>Has permanently affixed and legible identification markings as prescribed by the manufacturer that indicate the recommended safe working load;", "<b>1926.251(a)(2)(ii)</b>Not be loaded in excess of its recommended safe working load as prescribed on the identification markings by the manufacturer; and", "<b>1926.251(a)(2)(iii)</b>Not be used without affixed, legible identification markings, required by paragraph (a)(2)(i) of this section.", "<b>1926.251(a)(3)</b>Rigging equipment, when not in use, shall be removed from the immediate work area so as not to present a hazard to employees.", "<b>1926.251(a)(4)</b>Special custom design grabs, hooks, clamps, or other lifting accessories, for such units as modular panels, prefabricated structures and similar materials, shall be marked to indicate the safe working loads and shall be proof-tested prior to use to 125 percent of their rated load.", "<b>1926.251(a)(6)</b>Inspections. Each day before being used, the sling and all fastenings and attachments shall be inspected for damage or defects by a competent person designated by the employer. Additional inspections shall be performed during sling use, where service conditions warrant. Damaged or defective slings shall be immediately removed from service."],
+			["<b>1926.300(c)</b>Personal protective equipment. Employees using hand and power tools and exposed to the hazard of falling, flying, abrasive, and splashing objects, or exposed to harmful dusts, fumes, mists, vapors, or gases shall be provided with the particular personal protective equipment necessary to protect them from the hazard. All personal protective equipment shall meet the requirements and be maintained according to subparts D and E of this part.", "<b>1926.300(d)(2)</b>All hand-held powered drills, tappers, fastener drivers, horizontal, vertical, and angle grinders with wheels greater than 2 inches in diameter, disc sanders, belt sanders, reciprocating saws, saber saws, and other similar operating powered tools shall be equipped with a momentary contact on-off  control and may have a lock-on control provided that turnoff can be accomplished by a single motion of the same finger or fingers that turn it on.", "<b>1926.300(d)(3)</b>All other hand-held powered tools, such as circular saws, chain saws, and percussion tools without positive accessory holding means, shall be equipped with a constant pressure switch that will shut off the power when the pressure is released."],
+			["<b>1926.350(a)(4)</b>When cylinders are transported by powered vehicles, they shall be secured in a vertical position.","<b>1926.350(a)(8)</b>When work is finished, when cylinders are empty, or when cylinders are moved at any time, the cylinder valve shall be closed.", "<b>1926.350(f)(5)</b>Hose couplings shall be of the type that cannot be unlocked or disconnected by means of a straight pull without rotary motion."],
+			["<b>1926.453(a)(2)</b>Aerial lifts may be 'field modified' for uses other than those intended by the manufacturer provided the modification has been certified in writing by the manufacturer or by any other equivalent entity, such as a nationally recognized testing laboratory, to be in conformity with all applicable provisions of ANSI A92.2-1969 and this section and to be at least as safe as the equipment was before modification.", "<b>1926.453(b)(2)(iii)</b>Belting off to an adjacent pole, structure, or equipment while working from an aerial lift shall not be permitted.", "<b>1926.453(b)(2)(iv)</b>Employees shall always stand firmly on the floor of the basket, and shall not sit or climb on the edge of the basket or use planks, ladders, or other devices for a work position."],
+			["<b>1926.501(b)(2)(i)</b>Each employee who is constructing a leading edge 6 feet (1.8 m) or more above lower levels shall be protected from falling by guardrail systems, safety net systems, or personal fall arrest systems."],
+			["<b>1926.752(a)</b>Approval to begin steel erection. Before authorizing the commencement of steel erection, the controlling contractor shall ensure that the steel erector is provided with the following written notifications:roval to begin steel erection. Before authorizing the commencement of steel erection, the controlling contractor shall ensure that the steel erector is provided with the following written notifications:pproval to begin steel erection. Before authorizing the commencement of steel erection, the controlling contractor shall ensure that the steel erector is provided with the following written notifications:", "<b>1926.752(a)(1)</b>The concrete in the footings, piers and walls and the mortar in the masonry piers and walls has attained, on the basis of an appropriate ASTM standard test method of field-cured samples, either 75 percent of the intended minimum compressive design strength or sufficient strength to support the loads imposed during steel erection.", "<b>1926.752(a)(2)</b>Any repairs, replacements and modifications to the anchor bolts.", "<b>1926.752(b)</b>Commencement of steel erection. A steel erection contractor shall not erect steel unless it has received written notification that the concrete in the footings, piers and walls or the mortar in the masonry piers and walls has attained, on the basis of an appropriate ASTM standard test method of field-cured samples, either 75 percent of the intended minimum compressive design strength or sufficient strength to support the loads imposed during steel erection.", "<b>1926.752(c)(2)</b>A firm, properly graded, drained area, readily accessible to the work with adequate space for the safe storage of materials and the safe operation of the erector's equipment."],
+			["<b>1926.753(e) Multiple Lift Rigging Procedure.</b>", "<b>1926.753(e)(1)</b>A multiple lift shall only be performed if the following criteria are met:", "<b>1926.753(e)(1)(i)</b>A multiple lift rigging assembly is used;", "<b>1926.753(e)(1)(ii)</b>A maximum of five members are hoisted per lift;", "<b>1926.753(e)(1)(iii)</b>Only beams and similar structural members are lifted; and", "<b>1926.753(e)(1)(iv)</b>All employees engaged in the multiple lift have been trained in these procedures in accordance with § 1926.761(c)(1).", "<b>1926.753(e)(1)(v)</b>No crane is permitted to be used for a multiple lift where such use is contrary to the manufacturer's specifications and limitations.", "<b>1926.753(e)(2)</b>Components of the multiple lift rigging assembly shall be specifically designed and assembled with a maximum capacity for total assembly and for each individual attachment point. This capacity, certified by the manufacturer or a qualified rigger, shall be based on the manufacturer's specifications with a 5 to 1 safety factor for all components."],
+			["<b>1926.753(e)(3)</b>The total load shall not exceed:", "<b>1926.753(e)(3)(i)</b>The rated capacity of the hoisting equipment specified in the hoisting equipment load charts;", "<b>1926.753(e)(3)(ii)</b>The rigging capacity specified in the rigging rating chart.", "<b>1926.753(e)(4)</b>The multiple lift rigging assembly shall be rigged with members:", "<b>1926.753(e)(4)(i)</b>Attached at their center of gravity and maintained reasonably level;", "<b>1926.753(e)(4)(ii)</b>Rigged from top down; and", "<b>1926.753(e)(4)(iii)</b>Rigged at least 7 feet (2.1 m) apart.", "<b>1926.753(e)(5)</b>The members on the multiple lift rigging assembly shall be set from the bottom up.", "<b>1926.753(e)(6)</b>Controlled load lowering shall be used whenever the load is over the connectors."],
+			["<b>1926.754(d)(1)</b> When deemed necessary by a competent person, plumbing-up equipment shall be installed in conjunction with the steel erection process to ensure the stability of the structure.", "<b>1926.754(d)(2)</b>When used, plumbing-up equipment shall be in place and properly installed before the structure is loaded with construction material such as loads of joists, bundles of decking or bundles of bridging.", "<b>1926.754(d)(3)</b>Plumbing-up equipment shall be removed only with the approval of a competent person."],
+			["<b>1926.754(e)(1)(ii)</b>If loose items such as dunnage, flashing, or other materials are placed on the top of metal decking bundles to be hoisted, such items shall be secured to the bundles.", "<b>1926.754(e)(1)(iv)</b>Metal decking bundles shall be landed on framing members so that enough support is provided to allow the bundles to be unbanded without dislodging the bundles from the supports."],
+            ["<b>1926.754(e)(3)(i)</b>Covers for roof and floor openings shall be capable of supporting, without failure, twice the weight of the employees, equipment and materials that may be imposed on the cover at any one time.", "<b>1926.754(e)(3)(ii)</b>All covers shall be secured when installed to prevent accidental displacement by the wind, equipment or employees.", "<b>1926.754(e)(3)(iii)</b>All covers shall be painted with high-visibility paint or shall be marked with the word 'HOLE' or 'COVER' to provide warning of the hazard."],
+			["<b>1926.755(b)(1)</b>Anchor rods (anchor bolts) shall not be repaired, replaced or field-modified without the approval of the project structural engineer of record.", "<b>1926.755(b)(2)</b>Prior to the erection of a column, the controlling contractor shall provide written notification to the steel erector if there has been any repair, replacement or modification of the anchor rods (anchor bolts) of that column."],
+			["<b>1926.756(b)</b>Diagonal bracing. Solid web structural members used as diagonal bracing shall be secured by at least one bolt per connection drawn up wrench-tight or the equivalent as specified by the project structural engineer of record.", "<b>1926.756(c)(1)</b>Double connections at columns and/or at beam webs over a column. When two structural members on opposite sides of a column web, or a beam web over a column, are connected sharing common connection holes, at least one bolt with its wrench-tight nut shall remain connected to the first member unless a shop-attached or field-attached seat or equivalent connection device is supplied with the member to secure the first member and prevent the column from being displaced (See appendix H to this subpart for examples of equivalent connection devices).", "<b>1926.756(c)(2)</b>If a seat or equivalent device is used, the seat (or device) shall be designed to support the load during the double connection process. It shall be adequately bolted or welded to both a supporting member and the first member before the nuts on the shared bolts are removed to make the double connection."],
+			["<b>1926.757(a)(1)(i)</b>A vertical stabilizer plate shall be provided on each column for steel joists. The plate shall be a minimum of 6 inch by 6 inch (152 mm by 152 mm) and shall extend at least 3 inches (76 mm) below the bottom chord of the joist with a 13⁄16 inch (21 mm) hole to provide an attachment point for guying or plumbing cables.", "<b>1926.757(a)(1)(ii)</b>The bottom chords of steel joists at columns shall be stabilized to prevent rotation during erection.", "<b>1926.757(a)(1)(iii)</b>Hoisting cables shall not be released until the seat at each end of the steel joist is field-bolted, and each end of the bottom chord is restrained by the column stabilizer plate.", "<b>1926.757(a)(9)</b>Steel joists and steel joist girders shall not be used as anchorage points for a fall arrest system unless written approval to do so is obtained from a qualified person.", "<b>1926.757(a)(10)</b>A bridging terminus point shall be established before bridging is installed."],
+			["<b>Cooper Steel Specific Bridging Requirements: If 'Erection EX or X' bridging is called out on the drawings, the center run must go in on anything 60' or less. For joist spans 60' to 100' refer to the regulations below.</b>", "<b>1926.757(d)(2)</b>Where the span of the steel joist is over 60 feet (18.3 m) through 100 feet (30.5 m), the following shall apply:", "<b>1926.757(d)(2)(i)</b>All rows of bridging shall be bolted diagonal bridging;", "<b>1926.757(d)(2)(ii)</b>Two rows of bolted diagonal erection bridging shall be installed near the third points of the steel joist;", "<b>1926.757(d)(2)(iii)</b>Hoisting cables shall not be released until this bolted diagonal erection bridging is installed and anchored; and", "<b>1926.757(d)(3)</b>Where the span of the steel joist is over 100 feet (30.5 m) through 144 feet (43.9 m), the following shall apply:", "<b>1926.757(d)(3)(i)</b>All rows of bridging shall be bolted diagonal bridging;", "<b>1926.757(d)(3)(ii)</b>Hoisting cables shall not be released until all bridging is installed and anchored."],
+			["<b>If there is a 'Deck Bundle Placement Plan' then it must be followed without deviation. Otherwise, the following regulations below will apply.</b>", "<b>1926.757(e)(4)</b>No bundle of decking may be placed on steel joists until all bridging has been installed and anchored and all joist bearing ends attached, unless all of the following conditions are met:", "<b>1926.757(e)(4)(i)</b>The employer has first determined from a qualified person and documented in a site-specific erection plan that the structure or portion of the structure is capable of supporting the load;", "<b>1926.757(e)(4)(ii)</b>The bundle of decking is placed on a minimum of three steel joists;", "<b>1926.757(e)(4)(iii)</b>The joists supporting the bundle of decking are attached at both ends;", "<b>1926.757(e)(4)(iv)</b>At least one row of bridging is installed and anchored;", "<b>1926.757(e)(4)(v)</b>The total weight of the bundle of decking does not exceed 4,000 pounds (1816 kg); and", "<b>1926.757(e)(5)</b>The edge of the construction load shall be placed within 1 foot (.30 m) of the bearing surface of the joist end."],
+			["<b>1926.759(a)</b>Securing loose items aloft. All materials, equipment, and tools, which are not in use while aloft, shall be secured against accidental displacement.", "<b>1926.759(b)</b>Protection from falling objects other than materials being hoisted. The controlling contractor shall bar other construction processes below steel erection unless overhead protection for the employees below is provided.<b>The red barricade should encompass the area where tools/material can fall while working at heights. If the barricade is directly beneath a worker, it should be moved out to include any 'drop zone' below them."],
+			["<b>Ladder(s) Criteria</b> No aluminum ladders shall be used. Extension ladders shall be leaned at a 4:1 ratio, extend 42'' above the work surface. They should be secured at the top or held in place at the bottom by another person. Working off a ladder requires tie-off 100% with the persons center of gravity inside the vertical supports.", "<b>A-Frame Ladders</b> Shall not be used to access a floor above. Have the brace arms extended fully & the top two steps are not used to work off of.", "<b>All ladders shall have their tags present and legible. The ladder shall be appropriately rated for the person and the work being performed.</b>"],
+			["<b> Electrical Cords:</b>", "Shall have the ground prong present, if applicable.", "Made of minimum 12 guage wire.", "No repairs in the cord.", "Kept clear of standing water, sharp edges or equipment damage.", "GFCI's are used on all cords/power tools."],
+			
+			
+			
+			
+            // Add more arrays for other buttons as needed
+        ];
+
+        var buttonLabels = [
+            "1926.25 Housekeeping",
+            "1926.34 Egress",
+			"1926.51 Sanitation",
+			"1926.56 Illumination",
+			"1926.100 PPE",
+			"1926.101 Hearing Protection",
+			"1926.102 Eye & Face Protection",
+			"1926.150 Fire Protection",
+			"1926.152 Flammable Storage",
+			"1926.200 Danger Signs",
+			"1926.251 Rigging equipment for material handling",
+			"1926.300 Hand & Power Tools",
+			"1926.350 Gas Welding & Cutting",
+			"1926.453 Aerial Lifts",
+			"1926.501 Duty to Have Fall Protection",
+			"1926.752 Site layout, site-specific erection plan & construction sequence",
+			"1926.753 Multi Lift Rigging Procedure",
+			"1926.753 Multi Lift Rigging Design",
+			"1926.754 Structural Steel Assembly",
+			"1926.754 Metal Decking",
+			"1926.754 Hole Coverings",
+			"1926.755 Column Anchorage",
+			"1926.756 Beams & Columns",
+			"1926.757 Open Web Steel Joists",
+			"1926.757 Bridging",
+			"1926.757 Placing Deck Bundles",
+			"1926.759 Falling Object Protection",
+			"Ladders",
+			"Electrical Cords",
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+            // Add more custom labels for other buttons as needed
+        ];
+
+        var currentButtonIndex = null;
+        var currentSentenceIndex = 0;
+
+        // Function to display sentences for a button
+        function displaySentences(buttonIndex) {
+            var sentenceDiv = document.getElementById('sentence' + buttonIndex);
+
+            // Display the sentences for the button
+            sentenceDiv.innerHTML = sentences[buttonIndex - 1].join("<br>");
+            sentenceDiv.style.display = 'block';
+			
+			// Display the sentences for the button with a space between them
+            sentenceDiv.innerHTML = sentences[buttonIndex - 1].join("<br><br>"); // Two line breaks for space
+            sentenceDiv.style.display = 'block';
+
+            // Hide sentences for the previous button
+            if (currentButtonIndex !== null && currentButtonIndex !== buttonIndex) {
+                var prevSentenceDiv = document.getElementById('sentence' + currentButtonIndex);
+                prevSentenceDiv.innerHTML = '';
+                prevSentenceDiv.style.display = 'none';
+            }
+
+            // Store the current button index
+            currentButtonIndex = buttonIndex;
+        }
+
+        // Function to set button labels
+        function setButtonLabel(buttonIndex) {
+            var button = document.getElementById('button' + buttonIndex);
+            button.textContent = buttonLabels[buttonIndex - 1];
+        }
+
+        // Add event listeners to toggle sentences
+        for (var i = 1; i <= 50; i++) {
+            var button = document.getElementById('button' + i);
+
+            button.addEventListener('click', function(buttonIndex) {
+                return function() {
+                    // Display sentences for the clicked button
+                    displaySentences(buttonIndex);
+                };
+            }(i));
+
+            // Set initial button labels
+            setButtonLabel(i);
+        }
+    </script>
+</body>
+</html>
